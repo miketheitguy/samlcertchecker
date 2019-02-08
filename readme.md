@@ -15,17 +15,17 @@ not using key autorotation for some reason.
 
 # PARAMETERS
 
-## PARAMETER encryption
+## encryption
 
 This switch tells the script to evaluate the encryption
 certificates. This usage is less common.
 
-## PARAMETER signing
+## signing
 
 This switch tells the script to evaluate the signing
 certificates. This usage is most common.
 
-## PARAMETER MetadataURL
+## MetadataURL
 
 Specifies the IDP Metadata URL
 
