@@ -1,9 +1,7 @@
-# SYNOPSIS
+# SAMLCERTCHECKER
 
-This script outputs a datetime object representing the furthest
-IDP Metadata Certificate expiration date.
 
-# DESCRIPTION
+## Overview
 
 This script outputs a datetime object representing the furthest
 IDP Metadata Certificate expiration date.
@@ -13,44 +11,44 @@ such as Solarwinds Orion(tm) to check when your IDP signing
 and encryption certificates are going to expire if you're
 not using key autorotation for some reason.
 
-# PARAMETERS
+## Parameters
 
-## encryption
+### encryption
 
 This switch tells the script to evaluate the encryption
 certificates. This usage is less common.
 
-## signing
+### signing
 
 This switch tells the script to evaluate the signing
 certificates. This usage is most common.
 
-## MetadataURL
+### MetadataURL
 
 Specifies the IDP Metadata URL
 
-# EXAMPLES
+## Examples
 
-## EXAMPLE 1
+### Example 1
 
 C:\PS> .\samlcertchecker.ps1 -encryption -MetadataURL "https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml"
 Monday, November 4, 2019 11:00:00
 
-## EXAMPLE 2
+### Example 2
 
 C:\PS> .\samlcertchecker.ps1 -signing -MetadataURL "https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml"
 Monday, November 4, 2019 11:10:00
 
-# Input/Output
+## Input/Output
 
-## INPUTS
+### Inputs
 
 None. You cannot pipe objects to samlcertchecker.ps1
 
-## OUTPUTS
+### Outputs
 
 System.DateTime. Returns a DateTime Object for use in DateTime math operations.
 
-# REFERENCES
+## References
 
-https://www.oasis-open.org/standards#samlv2.0
+<https://www.oasis-open.org/standards#samlv2.0>
