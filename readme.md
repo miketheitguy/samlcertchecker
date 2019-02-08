@@ -19,7 +19,7 @@ certificates. This usage is less common.
 
 ### signing
 
-This switch tells the script to evaluate the signing
+This switch tells the scrigipt to evaluate the signing
 certificates. This usage is most common.
 
 ### MetadataURL
