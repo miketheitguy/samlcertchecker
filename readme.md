@@ -1,5 +1,7 @@
 # SAMLCERTCHECKER
 
+![License](https://img.shields.io/github/license/miketheitguy/samlcertchecker.svg?style=flat "License")
+
 ## Overview
 
 This script outputs a datetime object representing the furthest
